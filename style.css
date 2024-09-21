@@ -1,0 +1,144 @@
+.header-area {
+    position: relative;
+}
+h1,h2{
+    font-family: "Manrope", system-ui;
+    font-weight: 700;
+}
+.header-area-bg {
+    background-image: url(images/header-bg-left.png);
+    position: absolute;
+    height: 500px;
+    width: 544px;
+    background-size: cover;
+    z-index: -111111;
+}
+.navbar-nav li a{
+    font-family: "Manrope";
+    font-weight: 600;
+}
+form.nav-btn button{
+    font-family: "Manrope";
+    font-weight: 600; 
+}
+.submit-area {
+    min-width: 100%;
+}
+.push-area-image {
+    position: relative;
+    background-image: url(images/handshake.png);
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    margin-top: 40px;
+}
+.push-area-image::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0, 0.55);
+}
+.push-area-text {
+    position: absolute;
+    top: 310%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+.main-post-product-area{
+    background-image: url(images/middle-bg-color.png);
+    /* position: absolute; */
+    height: 100%;
+    /* width: 544px; */
+    background-size: cover;
+    z-index: -2222222;
+    padding-bottom: 20px;
+}
+.process-left {
+    max-width: 33%;
+}
+.card-bg h1 {
+    position: absolute;
+    right: 43px;
+    height: 100%;
+    top: -35px;
+    font-size: 100px;
+    opacity: .2;
+}
+.card.card-3.border-0 {
+    position: absolute;
+    right: 0;
+    top: 187%;
+}
+.card.card-2.border-0 {
+    position: absolute;
+    right: 31%;
+    top: 220%;
+}
+.card.card-3.border-0 .card-body {
+    background-image: url(images/card-3-bg.png);
+    background-size: contain;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: right;
+    height: 240px;
+}
+.ruler-text-area img {
+    position: absolute;
+    top: 161%;
+}
+.ruler-text-area {
+    margin-top: 150px;
+}
+
+.card-bg img {
+    position: absolute;
+    left: 138px;
+    top: -63%;
+    max-width: 32px;
+}
+
+.boll img {
+    position: absolute;
+    top: -67px;
+}
+.built-logo img{
+    background-color: #E9ECF2;
+    height: 50px;
+    margin-right: 10px;
+}
+/* .img-bg {
+    background-image: url(images/Group\ 269.png);
+    height: 100px;
+    width: 150px;
+    background-size: cover;
+} */
+img.women.d-block.w-100 {
+    height: 400px;
+}
+.project-management-area {
+    background-image: url(images/project-bg.png);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.project-management-text {
+    position: absolute;
+    margin-top: 144px;
+    /* max-width: 700px; */
+    /* margin-left: 250px; */
+}
+.logos-image-area img {
+    max-width: 100px;
+}
+.rounded-circle {
+    border-radius: 3px !important;
+}
